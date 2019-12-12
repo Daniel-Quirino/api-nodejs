@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Restful api\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CA Node Restful API Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Quirino/api-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Daniel Quirino\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DPires Quirino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Quirino/api-nodejs/issues"
+  },
+  "homepage": "https://github.com/Daniel-Quirino/api-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
