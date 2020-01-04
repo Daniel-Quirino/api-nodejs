@@ -7,11 +7,7 @@ const mongoose = require('mongoose')
 const productRoutes = require('./api/routes/products');
 const orderRoutes = require('./api/routes/orders');
 
-mongoose.connect(
-    `mongodb+srv://node-shop:${process.env.MONGO_ATLAS_PW}
-    @node-rest-shop-1ktfq.mongodb.net/test?retryWrites=true&w=majority`, 
-    {useMongoClient = true}
-)
+mongoose.connect(`mongodb+srv://${process.env.USER_NAME}:${process.env.MONGO_ATLAS_PW}@node-rest-shop-1ktfq.mongodb.net/${process.env.DATABASE}?retryWrites=true`, { useNewUrlParser: true });
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
