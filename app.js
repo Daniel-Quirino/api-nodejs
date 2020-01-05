@@ -9,6 +9,8 @@ const orderRoutes = require('./api/routes/orders');
 
 mongoose.connect(`mongodb+srv://${process.env.USER_NAME}:${process.env.MONGO_ATLAS_PW}@node-rest-shop-1ktfq.mongodb.net/${process.env.DATABASE}?retryWrites=true`, { useNewUrlParser: true });
 
+mongoose.Promise = global.Promise
+
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
