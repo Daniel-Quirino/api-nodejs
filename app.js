@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 //Routes which should requests
 app.use('/products', productRoutes);
 app.use('/orders', orderRoutes);
-app.use('/signup', userRoutes)
+app.use('/user', userRoutes)
 
 app.use((req, res, next ) => {
     const error = new Error('Not found');
