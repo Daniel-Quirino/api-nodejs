@@ -2,6 +2,7 @@
     "env": {
         "USER_NAME": "daniel",
         "MONGO_ATLAS_PW": "danielpires",
-        "DATABASE": "dev"
+        "DATABASE": "dev",
+        "JWT_KEY": "secret"
     }
 }
